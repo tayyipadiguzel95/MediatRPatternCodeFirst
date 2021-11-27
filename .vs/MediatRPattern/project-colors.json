@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f312e0b2-78a5-4999-bd84-1e598e856caf": {
+      "ProjectGuid": "f312e0b2-78a5-4999-bd84-1e598e856caf",
+      "DisplayName": "MediatRPattern",
+      "ColorIndex": 0
+    },
+    "929d2cfa-9d76-4499-b05d-ad222f0d2002": {
+      "ProjectGuid": "929d2cfa-9d76-4499-b05d-ad222f0d2002",
+      "DisplayName": "PatternCodeFirst",
+      "ColorIndex": 1
+    },
+    "9566f671-c826-4797-abbc-c49d11ffd9de": {
+      "ProjectGuid": "9566f671-c826-4797-abbc-c49d11ffd9de",
+      "DisplayName": "CodeFirst",
+      "ColorIndex": 2
+    },
+    "1ec5ae4e-769d-447f-8ce1-f0797d46dfd8": {
+      "ProjectGuid": "1ec5ae4e-769d-447f-8ce1-f0797d46dfd8",
+      "DisplayName": "CodeFirst",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
