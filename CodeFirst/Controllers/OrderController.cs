@@ -21,7 +21,7 @@ namespace CodeFirst.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(OrderResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Create([FromBody] CreateOrderCommand request)
+        public async Task<IActionResult> CreateAsync([FromBody] CreateOrderCommand request)
         {
             var response = await _mediator.Send(request);
             return Ok(response);

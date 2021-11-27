@@ -33,8 +33,7 @@ namespace CodeFirst.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(ProductResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-
-        public async Task<IActionResult> Create([FromBody] CreateProductRequest request)
+        public async Task<IActionResult> CreateAsync([FromBody] CreateProductRequest request)
         {
             var product = await _mediator.Send(new CreateProductCommand() { CreateProduct = request });
             if (product == default)
